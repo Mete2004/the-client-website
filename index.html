@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milledoni_Mete</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <img src="assets/Group 590.png" alt="logo-milledoni">
+        <img src="assets/Group 590.png" alt="logo-milledoni-big" class="img-logo-big">
+        <img src="assets/logo-klein-1.png" alt="logo-milledoni-small" class="img-logo-small">
 
-        <button class="button-list"><img src="assets/Frame 427318929.png" alt="icon-list"></button> 
-        <button class="button-profile"><img src="assets/Group 592.png" alt="icon-profile"></button>   
+        <!-- <button class="button-list"><img src="assets/Frame 427318929.png" alt="icon-list"></button>  -->
+         <div class="div-buttons">
+
+            <button class="button-list img-style">
+                <img src="assets/create-your-list-klein.png" alt="icon-list" class="create-small">
+                <img src="assets/Frame 427318929.png" alt="icon-list" class="create-big">
+            </button>
+            <button class="button-profile img-style">
+                <img src="assets/Group 592.png" alt="icon-profile">
+            </button>   
+
+        </div>
     </header>
 
 
     <main>
-        <section class="section-search">
-            <h1>I'm looking for a gift for... <br> <strong>my uncle</strong></h1>
-            <input type="text" placeholder="Search..">
+        <section class="section-1">
+            <h1 class="h1-small">Finding and sharing gifts ideas</h1>
+            <h1 class="h1-big">I'm looking for a gift for.. <br> my uncle</h1>
 
             <ul class="pictures-img">
                 <li><img src="assets/pf-1.png" alt="pf-1"></li>
@@ -52,6 +64,9 @@
                 </div>
             </article>
         </section>
+
+            <input type="text" placeholder="Search..">
+
 
     </main>
 
