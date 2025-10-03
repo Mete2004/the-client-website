@@ -21,10 +21,18 @@ header{
 
 .img-logo-big{
     display: none;
+
+      @media (min-width: 768px) {
+        display: block;
+      }
 }
 
 .img-logo-small {
     display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
 }
 
 .button-list{
@@ -34,10 +42,18 @@ header{
 
 .create-small{
     display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
 }
 
 .create-big{
     display: none;
+
+      @media (min-width: 768px) {
+        display: block;
+      }
 }
 
 .img-style {
@@ -54,6 +70,13 @@ header{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+
+      @media (min-width: 768px) {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
 }
 
 .section-1 h1{
@@ -64,6 +87,16 @@ header{
     top: 20px; */
     width: 200px;
     border: 1px solid blue;
+
+      @media (min-width: 768px) {
+        grid-column: 1 / 4;
+        grid-row: 1 / 3;
+        font-size: 35px;
+        /* position: relative;
+        top: 20px; */
+        width: 9em;
+        border: 1px solid blue;
+      }
 }
 
 .section-1 p{
@@ -75,11 +108,19 @@ header{
 }
 
 .h1-small{
- display: block;
+    display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
 }
 
 .h1-big{
     display: none;
+
+      @media (min-width: 768px) {
+        display: block;
+      }
 }
 
 .pictures-img{
@@ -102,47 +143,4 @@ header{
 .pictures-img img{
     height: 3em;
     width: 3em;
-}
-
-@media (min-width: 768px) {
-  .img-logo-small {
-    display: none; /* kleine logo verbergen */
-  }
-  .img-logo-big {
-    display: block; /* grote logo tonen */
-  }
-
-  .create-small{
-    display: none;
-  }
-
-  .create-big{
-    display: block;
-  }
-
-  .h1-small{
-    display: none;
-  }
-
-  .h1-big{
-    display: block;
-  }
-
-  .section-1{
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-   }
-
-  .section-1 h1{
-    grid-column: 1 / 4;
-    grid-row: 1 / 3;
-    font-size: 35px;
-    /* position: relative;
-    top: 20px; */
-    width: 9em;
-    border: 1px solid blue;
-   }
-
 }
