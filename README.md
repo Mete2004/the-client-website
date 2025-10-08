@@ -35,6 +35,11 @@ De HTML-structuur bestaat uit een duidelijke indeling met een header, main en fo
 
 In CSS heb ik vooral gewerkt aan de layout en responsiviteit met behulp van flexbox en grid. Ook heb ik gebruikgemaakt van media queries om ervoor te zorgen dat de website er goed uitziet op mobiel, tablet en desktop. 
 
+## Bronnen 
+
+https://github.com/fdnd-task/the-client-website/blob/main/docs/breakpoints-en-media-queries.md
+https://github.com/fdnd-task/the-client-website/blob/main/docs/layout-in-css.md
+https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md
 
 ## Licentie
 
