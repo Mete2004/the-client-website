@@ -21,7 +21,6 @@ Op de homepage bevindt zich een duidelijke header met het logo, een lijstknop en
 
 Tijdens het coderen ben ik begonnen met het ontwerpen van een gebruiksvriendelijke mobiele layout. Daarna heb ik de desktopversie uitgewerkt op basis van het Figma-design dat we hebben meegekregen. Vervolgens heb ik ook een tabletversie ontworpen, zodat de website er op elk apparaat goed uitziet en consistent blijft.
 
-link naar mijn Github page: https://github.com/Mete2004/the-client-website
 
 Screen homepage mobile versie: 
 <img width="402" height="747" alt="ss homepage-mobile" src="https://github.com/user-attachments/assets/ceaefce3-4001-4e02-be7a-ea67356a3940" />
@@ -35,6 +34,13 @@ De HTML-structuur bestaat uit een duidelijke indeling met een header, main en fo
 
 In CSS heb ik vooral gewerkt aan de layout en responsiviteit met behulp van flexbox en grid. Ook heb ik gebruikgemaakt van media queries om ervoor te zorgen dat de website er goed uitziet op mobiel, tablet en desktop. 
 
+## Bronnen 
+
+https://github.com/fdnd-task/the-client-website/blob/main/docs/breakpoints-en-media-queries.md
+
+https://github.com/fdnd-task/the-client-website/blob/main/docs/layout-in-css.md
+
+https://github.com/fdnd-task/the-client-website/blob/main/docs/prototyping.md
 
 ## Licentie
 
