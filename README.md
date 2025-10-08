@@ -25,7 +25,9 @@ Op de homepage bevindt zich een duidelijke header met het logo, een lijstknop en
 Tijdens het coderen ben ik begonnen met het ontwerpen van een gebruiksvriendelijke mobiele layout. Daarna heb ik de desktopversie uitgewerkt op basis van het Figma-design dat we hebben meegekregen. Vervolgens heb ik ook een tabletversie ontworpen, zodat de website er op elk apparaat goed uitziet en consistent blijft.
 
 link naar mijn Github page: https://github.com/Mete2004/the-client-website
-Screen homepage mobile versie: <img width="402" height="747" alt="ss homepage-mobile" src="https://github.com/user-attachments/assets/ceaefce3-4001-4e02-be7a-ea67356a3940" />
+
+Screen homepage mobile versie: 
+<img width="402" height="747" alt="ss homepage-mobile" src="https://github.com/user-attachments/assets/ceaefce3-4001-4e02-be7a-ea67356a3940" />
 
 
 ## Kenmerken
