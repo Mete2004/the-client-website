@@ -34,7 +34,9 @@ Screen homepage mobile versie:
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 Voor dit project heb ik gebruikgemaakt van HTML en CSS, met extra aandacht voor responsive design en gebruiksvriendelijkheid. Het resultaat is een toegankelijke en moderne website die op elk schermformaat goed werkt. 
+
 De HTML-structuur bestaat uit een duidelijke indeling met een header, main en footer. In de main worden de producten met een afbeelding en titel weergegeven. 
+
 In CSS heb ik vooral gewerkt aan de layout en responsiviteit met behulp van flexbox en grid. Ook heb ik gebruikgemaakt van media queries om ervoor te zorgen dat de website er goed uitziet op mobiel, tablet en desktop. 
 
 
