@@ -196,13 +196,23 @@ main{
       margin-left: 5px;
     }
       @media (min-width: 768px) {
-            width: 90%;
             height: 300px;
+            margin: 15px;
+            p{
+              margin-top: 60px;
+            }
           }
   }
       @media (min-width: 768px) {
-            grid-column: 3 / 6;
+            grid-column: 3 / 7;
             grid-row: 3 / 5;
+            height: 650px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 naast elkaar */
+            gap: 1rem;
+            max-width: 70%;
+            /* margin-left: 100px; */
+            place-content: center;
           }
 
 }
@@ -240,6 +250,20 @@ main{
       width: 50px;
     }
   }
+}
+
+.afbeelding-big{
+ display: none;
+  @media (min-width: 768px) {
+          display: block;
+        }
+}
+
+.afbeelding-small{
+  display: block;
+   @media (min-width: 768px) {
+          display: none;
+        }
 }
 
 .zoekbalk-container-mobile{
